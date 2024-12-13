@@ -224,6 +224,10 @@ section{
 .about-pic{
     border-radius: 2rem;
 }
+.details-container{
+    justify-content: center;
+    text-align: justify;
+}
 .arrow{
     position: absolute;
     right: -5rem;
