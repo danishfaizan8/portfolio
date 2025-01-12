@@ -173,6 +173,8 @@ section{
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: auto;
+    
 
 }
 
@@ -241,7 +243,7 @@ section{
     border: rgb(53, 53, 53) 0.1rem solid ;
     border-color: rgb(163,163,163);
     text-align: center;
-    height: 200px;
+    height: 350px;
 }
 .section-container{
     gap: 4rem;
@@ -261,7 +263,9 @@ section{
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
-    margin-bottom: 2rem;
+    
+    
+    max-width: 100%;
 
 }
 .experience-details-container{
@@ -274,7 +278,7 @@ section{
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 0.7rem;
     justify-content: space space-around;
     
 }
@@ -301,10 +305,11 @@ article .icon{
 .project-img{
     border-radius: 2rem;
     width: 90%;
-    height: 90%;
+    height: auto;
+    padding-left: 13px;
 }
 .project-title{
-    margin: 1rem;
+    margin: 0rem;
     color: black;
 }
 
